@@ -9,9 +9,11 @@ function Hero() {
                 <h1 className="titleTwo">Fuel Knowledge</h1>
                 <p>Empowering Minds with</p>
                 <p>Engaging Events and Sessions</p>
-                <button className="registerButton">
-                    <a href="/">Register for the next event</a>
-                </button>
+                <div>
+                    <button>
+                        <a href="/">Register for the next event</a>
+                    </button>
+                </div>
             </div>
         </div >
     );

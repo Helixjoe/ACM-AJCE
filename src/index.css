@@ -114,7 +114,7 @@ video {
 .mainTitles {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-flow: column wrap;
   text-align: center;
   margin-top: 70px;
@@ -123,6 +123,7 @@ video {
 
 .mainTitles h1 {
   text-shadow: #008493 3px 3px 20px;
+  width: 100vw;
 }
 
 .mainTitles p {
@@ -136,12 +137,19 @@ video {
   margin-top: 10px;
 }
 
+.mainTitles div {
+  width: 100vw;
+  margin-top: 20px;
+}
+
 .mainTitles button {
-  margin: 20px 0px 10px 565px;
   background-color: #008493;
-  border: 0;
-  padding: 13px;
+  border: 13px solid #008493;
   width: 400px;
+}
+
+.mainTitles button :hover {
+  color: #fff;
 }
 
 .mainTitles a {
@@ -220,7 +228,6 @@ video {
   /* Hero Section */
   .navBar {
     padding: 20px;
-
   }
 
   .logo img {
@@ -234,16 +241,17 @@ video {
 
   .links a {
     padding-left: 0px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .mainTitles {
-    margin: 150px 0px 0px 0px;
+    margin: 9.375rem 0px 0px 0px;
     width: 100vw;
   }
 
   .mainTitles h1 {
     font-size: 40px;
+    margin-right: min(30px, 0px);
   }
 
 
@@ -253,7 +261,6 @@ video {
 
   .mainTitles button {
     width: 300px;
-    margin: 10px 110px;
   }
 
   .mainTitles a {
