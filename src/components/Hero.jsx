@@ -7,8 +7,8 @@ function Hero() {
             <div className="mainTitles">
                 <h1 className="titleOne" >Ignite Passion</h1>
                 <h1 className="titleTwo">Fuel Knowledge</h1>
-                <p>Empowering Minds with
-                    Engaging Events and Sessions</p>
+                <p>Empowering Minds with</p>
+                <p>Engaging Events and Sessions</p>
                 <button className="registerButton">
                     <a href="/">Register for the next event</a>
                 </button>

@@ -113,16 +113,12 @@ video {
 
 .mainTitles {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-flow: column wrap;
   text-align: center;
-  margin: 80px 525px 0;
-  width: 500px;
+  margin-top: 70px;
+  width: 100vw;
 }
 
 .mainTitles h1 {
@@ -132,16 +128,19 @@ video {
 .mainTitles p {
   color: #00AAB6;
   text-align: center;
-  width: 380px;
-  padding: 10px 60px;
+  width: 100vw;
   font-weight: 400;
 }
 
+.mainTitles :nth-child(3) {
+  margin-top: 10px;
+}
+
 .mainTitles button {
-  margin: 10px 0px 10px 50px;
+  margin: 20px 0px 10px 565px;
   background-color: #008493;
   border: 0;
-  padding: 10px;
+  padding: 13px;
   width: 400px;
 }
 
@@ -240,25 +239,21 @@ video {
 
   .mainTitles {
     margin: 150px 0px 0px 0px;
-    width: 350px;
+    width: 100vw;
   }
 
   .mainTitles h1 {
     font-size: 40px;
-    margin-left: 30px;
   }
 
 
   .mainTitles p {
-    padding: 20px 0px;
-    width: 300px;
     font-size: 20px;
-    margin-left: 40px;
   }
 
   .mainTitles button {
     width: 300px;
-    margin: 10px 40px;
+    margin: 10px 110px;
   }
 
   .mainTitles a {
