@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <nav id="nav" className="navBar">
             <div className="logo">
-                <img src="./src/assets/images/LOGO.png" alt="ACM AJCE Logo" />
+                <img src="./src/assets/images/LOGO.svg" alt="ACM AJCE Logo" />
                 <div className={"mobile-toggle-button"} onClick={navToggle}>
                     <i className="fa-solid fa-bars"></i>
                 </div>
