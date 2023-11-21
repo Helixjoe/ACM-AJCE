@@ -305,6 +305,7 @@ video {
 
   .hero {
     height: 100vh;
+    background-size: cover;
   }
 
   .mainTitles {
