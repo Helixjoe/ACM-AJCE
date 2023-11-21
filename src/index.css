@@ -124,7 +124,7 @@ video {
 }
 
 .mainTitles h1 {
-  text-shadow: #00AAB6 3px 3px 20px;
+  text-shadow: #00AAB6 2px 2px 20px;
   width: 100vw;
 }
 
@@ -232,7 +232,11 @@ video {
 
   .logo {
     width: 100vw;
-    padding: 1rem 0 1rem 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem 1rem 1rem;
     z-index: 9999;
     background-color: #00151F;
   }
@@ -245,11 +249,10 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0;
+    position: relative;
     height: 3rem;
     width: 3rem;
-    margin: 1.8rem 0 0 23rem;
+    margin: 0rem 2rem 0 0rem;
     border: 3px solid #008493;
     border-radius: 3px;
   }
@@ -273,11 +276,11 @@ video {
   }
 
   .links {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     padding: 0px 0px 20px 0px;
     margin: 0;
-    margin-top: 7.2rem;
+    margin-top: 7rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

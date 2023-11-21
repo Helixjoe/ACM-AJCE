@@ -11,14 +11,6 @@ function Navbar() {
             setState("false");
         }
     }
-    // function changeColor() {
-    //     if (currentState === "true") {
-    //         setState("clicked");
-    //     }
-    //     else {
-    //         setState("");
-    //     }
-    // }
     return (
         <nav id="nav" className="navBar">
             <div className="logo">
