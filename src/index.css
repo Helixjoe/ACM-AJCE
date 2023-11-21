@@ -80,8 +80,11 @@ video {
 }
 
 
-.logo img {
-  height: 80px;
+.logoImage {
+  height: 5rem;
+  width: 10rem;
+  background-image: url('assets/images/LOGO23.png');
+  background-size: cover;
 }
 
 .links {
@@ -241,8 +244,9 @@ video {
     background-color: #00151F;
   }
 
-  .logo img {
+  .logoImage {
     height: 5rem;
+
   }
 
   .mobile-toggle-button {
