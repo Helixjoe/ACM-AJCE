@@ -239,7 +239,7 @@ video {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem 0rem 1rem 0rem;
     z-index: 9999;
     background-color: #00151F;
   }
@@ -256,7 +256,7 @@ video {
     position: relative;
     height: 3rem;
     width: 3rem;
-    margin: 0rem 2rem 0 0rem;
+    margin: 0rem 1rem 0 0rem;
     border: 3px solid #008493;
     border-radius: 3px;
   }
