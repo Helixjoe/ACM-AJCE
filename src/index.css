@@ -219,10 +219,46 @@ video {
   margin-top: 20px;
 }
 
+/* --------- EVENTS ----------- */
+.eventsSection {
+  height: 90vh;
+  width: 100vw;
+  background-color: #00151F;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.eventsSection h1 {
+  color: #00AAB6;
+  font-size: 45px;
+}
+
+.events {
+  width: 167vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+
+}
+
+.eventCard {
+  height: 20rem;
+  width: 20rem;
+  margin: 3.5rem auto;
+  border-radius: 3rem;
+  padding: 1rem;
+  opacity: 1;
+  background-size: 22rem 22rem;
+  border-radius: 3rem;
+  box-shadow: 1rem 1rem 2rem #00AAB6;
+}
+
+
 
 
 /* ------- MOBILE RESPONSIVE ----------- */
-
 
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {

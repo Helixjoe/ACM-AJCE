@@ -22,7 +22,7 @@ function Navbar() {
             </div>
             <div className="links" data-visible={currentState}>
                 <a href="#about">ABOUT</a>
-                <a href="/">EVENTS</a>
+                <a href="#events">EVENTS</a>
                 <a href="/">GALLERY</a>
                 <a href="/">EXECOM</a>
                 {/* <a href="/" className="womensLink">WOMEN'S CHAPTER</a> */}
