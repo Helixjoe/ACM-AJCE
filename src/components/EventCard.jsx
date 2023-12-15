@@ -2,7 +2,8 @@
 function EventCard(props) {
     const imgLocation = `url("./events/` + props.loc + `")`;
     return (<div className="eventCard" style={{
-        backgroundImage: imgLocation
+        backgroundImage: imgLocation,
+        opacity: 0.9
     }}></div >);
 }
 

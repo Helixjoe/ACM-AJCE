@@ -38,6 +38,7 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 3.75rem;
   color: #00AAB6;
+  font-weight: 700;
 }
 
 /* ----------------------HERO---------------------------- */
@@ -233,26 +234,46 @@ video {
   font-size: 45px;
 }
 
-.events {
-  width: 167vw;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row;
-
+.slick-arrow {
+  height: 5rem;
+  width: 17rem;
 }
 
+.slick-next:before,
+.slick-prev:before {
+  color: #00AAB6;
+  font-size: 2.5rem;
+}
+
+
+.slick-dots li button:before {
+  opacity: .75;
+  color: #ffff;
+  font-size: 3rem;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #008493;
+}
+
+.slick-dots li button::before {
+  opacity: 0.75;
+  color: #ffff;
+  font-size: 0.6rem;
+}
+
+
 .eventCard {
-  height: 20rem;
-  width: 20rem;
-  margin: 3.5rem auto;
+  height: 18rem;
+  width: 18rem;
+  margin: 3.6rem auto;
   border-radius: 3rem;
   padding: 1rem;
   opacity: 1;
-  background-size: 22rem 22rem;
+  background-size: 20rem 20rem;
   border-radius: 3rem;
-  box-shadow: 1rem 1rem 2rem #00AAB6;
+  box-shadow: 0.5rem 0rem 2rem #00AAB6;
 }
 
 
@@ -379,4 +400,21 @@ video {
     text-align: center;
     height: 21.125rem;
   }
+
+  /* Events Section */
+  .eventCard {
+    height: 10rem;
+    width: 10rem;
+    margin: 3.5rem auto;
+    border-radius: 3rem;
+    background-size: 19rem 19rem;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    color: #00AAB6;
+    font-size: 2.5rem;
+    display: none;
+  }
+
 }
