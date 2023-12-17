@@ -11,7 +11,7 @@ function Hero() {
                 <p>Engaging Events and Sessions</p>
                 <div>
                     <button>
-                        <a href="/">Register for the next event</a>
+                        <a href="#events">Register for the next event</a>
                     </button>
                 </div>
             </div>

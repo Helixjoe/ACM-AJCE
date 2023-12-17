@@ -24,7 +24,7 @@ function Navbar() {
                 <a href="#about">ABOUT</a>
                 <a href="#events">EVENTS</a>
                 <a href="/">GALLERY</a>
-                <a href="/">EXECOM</a>
+                <a href="#execom">EXECOM</a>
                 {/* <a href="/" className="womensLink">WOMEN'S CHAPTER</a> */}
             </div>
         </nav >

@@ -3,8 +3,11 @@ import eventList from "../assets/eventDetails"
 import Slider from "react-slick";
 import { useEffect, useState } from "react";
 function createEntry(event) {
-    const location = "Event" + event.eventId + ".png"
-    return (<EventCard loc={location} />);
+    const location = "Event" + event.eventId + ".png";
+    const heading = event.heading;
+    const eventdate = event.date;
+    const content = event.content;
+    return (<EventCard loc={location} head={heading} date={eventdate} content={content} />);
 }
 
 function Events() {
@@ -33,7 +36,7 @@ function Events() {
         autoplay: false,
         autoplaySpeed: isMobile ? 1000 : 2000,
     }
-    return (<div id="events" className="eventsSection"><h1>EVENTS</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
+    return (<div id="events" className="eventsSection"><h1>Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
 }
 
 export default Events;

@@ -3,7 +3,7 @@ import InfoCard from "./InfoCard";
 function About() {
     return (
         <section className="about" id="about">
-            <h1 className="aboutTitle">ABOUT US</h1>
+            <h1 className="aboutTitle">About Us</h1>
             <div className="aboutSection">
                 <InfoCard
                     icon="fa-regular fa-compass"

@@ -235,7 +235,7 @@ video {
 }
 
 .slick-slide {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .slick-center {
@@ -247,12 +247,16 @@ video {
   width: 17rem;
 }
 
-.slick-next:before,
+.slick-next:before {
+  color: #00AAB6;
+  font-size: 2.5rem;
+  right: 0;
+}
+
 .slick-prev:before {
   color: #00AAB6;
   font-size: 2.5rem;
 }
-
 
 .slick-dots li button:before {
   opacity: .75;
@@ -281,7 +285,32 @@ video {
   background-size: 20rem 20rem;
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem #00AAB6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.eventCard p {
+  color: #00AAB6;
+  margin-bottom: 1rem;
+}
+
+.eventCard p:nth-child(1) {
+  font-weight: 600;
+  width: auto;
+}
+
+.eventCard p:nth-child(2) {
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.eventCard p:nth-child(3) {
+  font-weight: 500;
+  font-size: 20px;
+}
+
 
 .eventInfo {
   margin: 1rem auto;
@@ -302,6 +331,103 @@ video {
   font-size: 20px;
   padding: 0.5rem 1.5rem;
   border: 2px solid #00AAB6;
+}
+
+/* --------------MODAL-------------------- */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal {
+  z-index: 999;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+/*------------ EXECOM -------------------- */
+.exSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00151F;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.exSection h1 {
+  color: #00AAB6;
+  font-size: 45px;
+}
+
+.exCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.memberCard {
+  height: 17rem;
+  width: 14rem;
+  background-color: #00151F;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.25rem 1rem #008493;
+  border: 1px solid #00AAB6;
+}
+
+.memberPhoto {
+  background-color: grey;
+  height: 10rem;
+  width: 12rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+
+.memberCard p {
+  color: #00AAB6;
+  font-size: 22px;
 }
 
 
@@ -432,7 +558,6 @@ video {
     height: 17rem;
     width: 17rem;
     margin: 4rem auto;
-    border-radius: 3rem;
     background-size: 19rem 19rem;
   }
 
