@@ -30,11 +30,11 @@ function Events() {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "100px",
+        centerPadding: isMobile ? "20px" : "100px",
         slidesToShow: isMobile ? 1 : 3,
         speed: 300,
         dots: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: isMobile ? 1000 : 2000,
     }
     return (<div id="events" className="eventsSection"><h1>Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);

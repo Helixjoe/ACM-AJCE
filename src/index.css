@@ -171,14 +171,14 @@ video {
 .about {
   position: relative;
   background-color: #00151F;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   text-align: center;
 }
 
 .aboutTitle {
   font-size: 45px;
-  padding-top: 50px;
+  padding-top: 6rem;
 }
 
 .aboutSection {
@@ -260,7 +260,7 @@ video {
 
 .slick-dots li button:before {
   opacity: .75;
-  color: #ffff;
+  color: #00AAB6;
   font-size: 3rem;
 }
 
@@ -271,7 +271,7 @@ video {
 
 .slick-dots li button::before {
   opacity: 0.75;
-  color: #ffff;
+  color: #00AAB6;
   font-size: 0.6rem;
 }
 
@@ -549,7 +549,7 @@ body.active-modal {
 
   /* About Section */
   .about {
-    height: 180vh;
+    height: 150vh;
   }
 
   .aboutSection {
@@ -562,6 +562,10 @@ body.active-modal {
   }
 
   /* Events Section */
+  .eventsSection {
+    width: 100vw;
+  }
+
   .eventCard {
     height: 17rem;
     width: 17rem;
