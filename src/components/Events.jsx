@@ -35,7 +35,7 @@ function Events() {
         speed: 300,
         dots: true,
         autoplay: true,
-        autoplaySpeed: isMobile ? 1000 : 2000,
+        autoplaySpeed: isMobile ? 1000 : 3000,
     }
     return (<div id="events" className="eventsSection"><h1>Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
 }
