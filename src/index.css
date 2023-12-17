@@ -298,15 +298,23 @@ video {
 
 .eventCard p:nth-child(1) {
   font-weight: 600;
-  width: auto;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
 }
 
 .eventCard p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  font-style: oblique;
+}
+
+.eventCard p:nth-child(3) {
   font-weight: 300;
   font-size: 21px;
 }
 
-.eventCard p:nth-child(3) {
+.eventCard p:nth-child(4) {
   font-weight: 500;
   font-size: 20px;
 }

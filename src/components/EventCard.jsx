@@ -5,7 +5,7 @@ function EventCard(props) {
         setInfo(!info);
     }
     const imgLocation = `url("./events/` + props.loc + `")`;
-    let heading, date, content = "";
+    let heading, date, content, speaker = "";
     let eventStyle = {
         backgroundImage: imgLocation,
         opacity: 0.9
@@ -18,11 +18,12 @@ function EventCard(props) {
         heading = props.head;
         date = props.date;
         content = props.content;
+        speaker = props.speaker;
     }
     return (<div>
         <div className="eventCard"
             style={eventStyle}
-        ><p>{heading}</p><p>{content}</p><p>{date}</p></div >
+        ><p>{heading}</p><p>{speaker}</p><p>{content}</p><p>{date}</p></div >
 
         <div className="eventInfo" onClick={toggleInfo}><p>More Info</p></div></div >);
 }

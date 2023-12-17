@@ -7,7 +7,8 @@ function createEntry(event) {
     const heading = event.heading;
     const eventdate = event.date;
     const content = event.content;
-    return (<EventCard loc={location} head={heading} date={eventdate} content={content} />);
+    const speaker = event.speaker;
+    return (<EventCard loc={location} head={heading} date={eventdate} content={content} speaker={speaker} />);
 }
 
 function Events() {
