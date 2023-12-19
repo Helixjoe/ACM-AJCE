@@ -395,7 +395,7 @@ body.active-modal {
 
 /*------------ EXECOM -------------------- */
 .exSection {
-  height: 300vh;
+  height: 400vh;
   width: 100vw;
   background-color: #00151F;
   text-align: center;
@@ -419,7 +419,7 @@ body.active-modal {
 }
 
 .memberCard {
-  height: 18.5rem;
+  height: 19rem;
   width: 14rem;
   background-color: #00151F;
   border-radius: 1rem;
@@ -443,14 +443,15 @@ body.active-modal {
 }
 
 .memName {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 17px;
   margin-bottom: 0.25rem;
 }
 
 .memDes {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0.75rem;
+  font-weight: 500;
 }
 
 .fa-linkedin {
@@ -459,6 +460,29 @@ body.active-modal {
 
 .fa-linkedin:hover {
   color: white;
+}
+
+/* ---------------GALLERY---------------- */
+.gallerySection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00151F;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.galleryElement {
+  height: 18rem;
+  width: 18rem;
+  margin: 3.5rem auto;
+  background-size: 20rem 20rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem #00AAB6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
 /* ------- MOBILE RESPONSIVE ----------- */
@@ -571,7 +595,7 @@ body.active-modal {
 
   /* About Section */
   .about {
-    height: 150vh;
+    height: 180vh;
   }
 
   .aboutSection {
@@ -610,10 +634,13 @@ body.active-modal {
 
   /* Execom section */
 
+  .exSection {
+    height: 500vh;
+  }
 
   .memberCard {
     height: 16rem;
-    width: 10rem;
+    width: 9.5rem;
     background-color: #00151F;
     border-radius: 1rem;
     box-shadow: 0rem 0.25rem 0.5rem #008493;
@@ -633,18 +660,15 @@ body.active-modal {
 
   .memberCard p {
     color: #00AAB6;
-
   }
 
   .memName {
-    font-weight: 500;
     font-size: 15px;
     margin-bottom: 0.25rem;
   }
 
   .memDes {
-    font-size: 14px;
-    margin-bottom: 0.75rem;
+    font-size: 13px;
   }
 
   .fa-linkedin {
