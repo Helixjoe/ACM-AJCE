@@ -1,10 +1,11 @@
 import Slider from "react-slick";
 import { useEffect, useState } from "react";
 import galleryList from "../assets/galleryDetails"
+import GalleryCard from "./GalleryCard";
 
 function createEntry(gallery) {
-    const imgLocation = `url("./gallery/` + gallery.name + `")`;
-    return (<div className="galleryElement" style={{ backgroundImage: imgLocation }}></div>);
+    const name = gallery.name;
+    return (<GalleryCard name={name} />);
 }
 
 export default function Gallery() {
@@ -21,8 +22,19 @@ export default function Gallery() {
             window.removeEventListener('resize', handleResize);
         }
     });
-    return (<div className="gallerySection">
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        fade: isMobile ? true : false
+    };
+    return (<div id="gallery" className="gallerySection" >
         <h1>Gallery</h1>
-        {galleryList.map(createEntry)}
-    </div>)
+        <Slider {...settings}>{galleryList.map(createEntry)}</Slider>
+    </div >)
 }
