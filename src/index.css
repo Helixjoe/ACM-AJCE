@@ -39,6 +39,35 @@ h1 {
   font-size: 3.75rem;
   color: #00AAB6;
   font-weight: 700;
+  text-shadow: #008493 0px 0px 10px;
+}
+
+/* ----------------SCROLLBAR----------------------------- */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008493;
+  box-shadow: 0rem -0.5rem 1rem #00AAB6;
+}
+
+::-webkit-scrollbar-track {
+  background: #00151F;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 12px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #008493;
+}
+
+::-moz-scrollbar-track {
+  background-color: #00151F;
 }
 
 /* ----------------------HERO---------------------------- */
@@ -66,14 +95,15 @@ video {
 /*---------------------- NAVBAR ------------------------- */
 
 .navBar {
-  position: relative;
+  position: fixed;
+  width: 100vw;
   font-size: 20px;
-  height: 100px;
+  height: 80px;
   display: flex;
-  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   align-items: center;
   padding: 20px 0px 20px 60px;
+  z-index: 999;
 }
 
 .mobile-toggle-button {
@@ -93,12 +123,14 @@ video {
   padding-left: 100px;
 }
 
-.links a {
-  padding-left: 100px;
-  font-size: 20px;
+.links a:first-child {
+  padding-left: 0;
 }
 
-
+.links a {
+  margin-left: 70px;
+  font-size: 20px;
+}
 
 .links a:hover {
   color: white;
@@ -119,11 +151,12 @@ video {
 
 .mainTitles {
   position: relative;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: column wrap;
   text-align: center;
-  margin-top: 70px;
   width: 100vw;
 }
 
@@ -171,7 +204,7 @@ video {
 .about {
   position: relative;
   background-color: #00151F;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   text-align: center;
 }
@@ -284,7 +317,6 @@ video {
   opacity: 1;
   background-size: 20rem 20rem;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem #00AAB6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,11 +427,11 @@ body.active-modal {
 
 /*------------ EXECOM -------------------- */
 .exSection {
-  height: 400vh;
+  height: 270vh;
   width: 100vw;
   background-color: #00151F;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .exSection h1 {
@@ -423,9 +455,8 @@ body.active-modal {
   width: 14rem;
   background-color: #00151F;
   border-radius: 1rem;
-  box-shadow: 0rem 0.25rem 2rem #008493;
   border: 1px solid #00AAB6;
-  margin: 1.5rem 3rem;
+  margin: 1.5rem 2rem;
 }
 
 .memberPhoto {
@@ -454,11 +485,12 @@ body.active-modal {
   font-weight: 500;
 }
 
-.fa-linkedin {
+.memberCard .fa-linkedin {
   font-size: 30px;
+  text-shadow: #008493 1px 1px 5px;
 }
 
-.fa-linkedin:hover {
+.memberCard .fa-linkedin:hover {
   color: white;
 }
 
@@ -477,13 +509,12 @@ body.active-modal {
 }
 
 .galleryElement {
-  height: 25rem;
-  width: 30rem;
-  margin: 3.5rem auto;
-  background-size: 32rem 25rem;
+  height: 24rem;
+  width: 28rem;
+  margin: 4rem auto;
+  background-size: 29rem 25rem;
   border-radius: 1rem;
   opacity: 1;
-  box-shadow: 0.5rem 0.5rem 1rem #00AAB6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -497,6 +528,115 @@ body.active-modal {
 .gallerySection .slick-next:before,
 .slick-prev:before {
   display: none;
+}
+
+/* -------- FOOTER --------------------- */
+footer {
+  background-color: #00151F;
+  text-align: center;
+  width: 100vw;
+}
+
+footer h1 {
+  color: #00AAB6;
+  font-size: 40px;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+
+
+.footer-column {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+
+}
+
+.footer-column img {
+  width: 15rem;
+  margin: 0rem auto;
+  margin-bottom: 1.5rem;
+}
+
+.footer-column h1 {
+  font-size: 17px;
+  width: 19rem;
+  color: #00AAB6;
+  text-align: center;
+  font-weight: 400;
+}
+
+#acm-footer-logo {
+  width: 150px;
+}
+
+.footer-column h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-column h3 {
+  color: white;
+  font-size: 15px;
+}
+
+.footer-logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials h1 {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.socials i {
+  color: #00AAB6;
+  font-size: 40px;
+  text-shadow: #008493 0px 0px 20px;
+}
+
+.fa-facebook:hover {
+  color: #0B83ED;
+}
+
+.fa-linkedin:hover {
+  color: rgb(11, 102, 195);
+}
+
+.fa-instagram:hover {
+  color: #cc2366;
+}
+
+
+#copyright {
+  height: 7rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright span {
+  color: #00AAB6;
+  margin-bottom: 5px;
+  text-shadow: #008493 0px 0px 10px;
 }
 
 /* ------- MOBILE RESPONSIVE ----------- */
@@ -692,7 +832,7 @@ body.active-modal {
   /* Gallery Section */
   .galleryElement {
     height: 18rem;
-    width: 25rem;
+    width: 23rem;
     margin: 3.5rem auto;
     background-size: 27rem 18rem;
     border-radius: 1rem;
@@ -702,5 +842,14 @@ body.active-modal {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  /* Footer section */
+  .upper-footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
   }
 }

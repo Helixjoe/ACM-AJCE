@@ -18,11 +18,12 @@ const execom = [
         linkedURL: "https://www.linkedin.com/in/evelyn-susan-jacob-a450b3238/"
     },
     {
-        photo: "aneeta.png",
-        name: "Aneetta Binoy",
-        designation: "Women's Chapter secretary",
-        linkedURL: "https://www.linkedin.com/in/aneetta-binoy-7a3811263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        photo: "aadhi.jpg",
+        name: "Aadhi Lakshmi",
+        designation: "Women's vice Chair",
+        linkedURL: "https://www.linkedin.com/in/aadhi-lakshmi-m-r-497638289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
+
     {
         photo: "melvin.png",
         name: "Melvin Tom Varghese",
@@ -35,7 +36,26 @@ const execom = [
         name: "Sreelakshmi A",
         designation: "Event Coordinator",
         linkedURL: "https://www.linkedin.com/in/sreelakshmi-a-92591a200/"
-    }, {
+    },
+    {
+        photo: "alphonsa.jpg",
+        name: "Alphonsa Francis",
+        designation: "Women's Event Coordinator",
+        linkedURL: "http://www.linkedin.com/in/alphonsa-francis-7292882a6"
+    },
+    {
+        photo: "aneeta.png",
+        name: "Aneetta Binoy",
+        designation: "Women's Secretary",
+        linkedURL: "https://www.linkedin.com/in/aneetta-binoy-7a3811263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        photo: "vinayak.png",
+        name: "Vinayak Prakash",
+        designation: "Secretary",
+        linkedURL: "https://www.linkedin.com/in/vinayak-prakash-432082255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
         photo: "don.png",
         name: "Don C Delish",
         designation: "Design Lead",
@@ -44,7 +64,7 @@ const execom = [
     {
         photo: "ria.png",
         name: "Ria Mariam Mathews",
-        designation: "Design Lead, Women's Chapter",
+        designation: "Women's Design Lead",
         linkedURL: "https://www.linkedin.com/in/ria-mariam-mathews-13785b227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
@@ -58,6 +78,12 @@ const execom = [
         name: "Jeswin Joshy",
         designation: "Content Lead",
         linkedURL: "https://www.linkedin.com/in/jeswin-joshy-265471241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        photo: "thomas.jpg",
+        name: "Thomas Zacharias",
+        designation: "Content Team",
+        linkedURL: "https://www.linkedin.com/in/thomas-zacharias-b9a2b7206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
         photo: "joel.png",
