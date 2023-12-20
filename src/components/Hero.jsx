@@ -1,14 +1,6 @@
 import Navbar from "./Navbar";
-import { useState } from "react";
-
 function Hero() {
-    const [currentState, setState] = useState(false);
-    function scrollchange() {
-        if (window.scrollY >= 100) {
-            console.log("scroll executed");
-        }
-    }
-    window.addEventListener('scroll', scrollchange);
+
     return (
         <div className="hero">
             <Navbar />
