@@ -3,7 +3,7 @@ import InfoCard from "./InfoCard";
 function About() {
     return (
         <section className="about" id="about">
-            <h1 className="aboutTitle">ABOUT US</h1>
+            <h1 className="aboutTitle" data-aos="fade-up" data-aos-delay="100">About Us</h1>
             <div className="aboutSection">
                 <InfoCard
                     icon="fa-regular fa-compass"
@@ -11,6 +11,7 @@ function About() {
                     desc="Foster a deep passion for 
 technology and innovation 
 among our members"
+                    delay="300"
                 />
                 <InfoCard
                     icon="fa-regular fa-calendar-days"
@@ -19,6 +20,7 @@ among our members"
 practical skills through 
 workshops and competitions 
 "
+                    delay="600"
                 />
                 <InfoCard
                     icon="fa-solid fa-people-group"
@@ -27,6 +29,7 @@ workshops and competitions
 learning from one another
  and growing as a collective force
 "
+                    delay="900"
                 />
             </div>
         </section>

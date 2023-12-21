@@ -1,17 +1,18 @@
 import Navbar from "./Navbar";
 
 function Hero() {
+
     return (
-        <div className="hero">
+        <div className="hero" id="home" >
             <Navbar />
             <div className="mainTitles">
-                <h1 className="titleOne" >Ignite Passion</h1>
-                <h1 className="titleTwo">Fuel Knowledge</h1>
-                <p>Empowering Minds with</p>
-                <p>Engaging Events and Sessions</p>
+                <h1 className="titleOne" data-aos="fade-up" data-aos-delay="500">Ignite Passion</h1>
+                <h1 className="titleTwo" data-aos="fade-up" data-aos-delay="500">Fuel Knowledge</h1>
+                <p data-aos="fade-up" data-aos-delay="600">Empowering Minds with</p>
+                <p data-aos="fade-up" data-aos-delay="600">Engaging Events and Sessions</p>
                 <div>
-                    <button>
-                        <a href="/">Register for the next event</a>
+                    <button data-aos="fade-up" data-aos-delay="700">
+                        <a href="#events">Register for the next event</a>
                     </button>
                 </div>
             </div>
