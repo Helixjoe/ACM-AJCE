@@ -11,7 +11,7 @@ function createEntry(execom) {
 
 
 function Execom() {
-    return (<div id="execom" className="exSection"><h1>Execom</h1>
+    return (<div id="execom" className="exSection" ><h1 data-aos="fade-up" data-aos-delay="100">Execom</h1>
         <div className="exCard">{execomList.map(createEntry)}</div>
     </div>);
 }

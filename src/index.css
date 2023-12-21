@@ -108,7 +108,6 @@ video {
 .scrollY {
   background-image: url('assets/images/background2.webp');
   background-size: 50vw 100vh;
-
 }
 
 .mobile-toggle-button {
@@ -156,7 +155,7 @@ video {
 
 .mainTitles {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,7 +208,7 @@ video {
 .about {
   position: relative;
   background-color: #00151F;
-  padding-top: 10vh;
+  padding-top: 0vh;
   height: 90vh;
   width: 100vw;
   text-align: center;
@@ -265,7 +264,7 @@ video {
   width: 100vw;
   background-color: #00151F;
   text-align: center;
-  padding-top: 18vh;
+  padding-top: 10vh;
 }
 
 .eventsSection h1 {
@@ -438,7 +437,7 @@ body.active-modal {
   width: 100vw;
   background-color: #00151F;
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
 .exSection h1 {
@@ -507,7 +506,7 @@ body.active-modal {
   width: 100vw;
   background-color: #00151F;
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
 .gallerySection h1 {
@@ -564,7 +563,6 @@ footer h1 {
   flex-direction: column;
   color: white;
   text-align: center;
-
 }
 
 .footer-column img {
@@ -638,13 +636,11 @@ footer h1 {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background-color: #000;
 }
 
 #copyright span {
-  color: #00AAB6;
+  color: #008493;
   margin-bottom: 5px;
-  text-shadow: #008493 0px 0px 10px;
 
 }
 
@@ -702,7 +698,17 @@ footer h1 {
     height: 300px;
     display: flex;
     flex-flow: column wrap;
+    text-align: center;
     padding: 0px;
+  }
+
+  .scrollY {
+    background-image: none;
+    background-size: 0;
+  }
+
+  .headroom-wrapper {
+    height: 200px;
   }
 
   .links {
@@ -727,22 +733,28 @@ footer h1 {
   .links a {
     padding: 20px 0px 0 0;
     font-size: 20px;
+    margin: 0;
   }
 
   .hero {
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
+  }
+
+  .headroom {
+    z-index: 9999;
   }
 
   .mainTitles {
     margin: 0 0 0 0;
+    height: 40vh;
+    text-align: center;
     width: 100vw;
   }
 
   .mainTitles h1 {
     font-size: 40px;
   }
-
 
   .mainTitles p {
     font-size: 20px;
@@ -758,7 +770,8 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 180vh;
+    height: 150vh;
+    padding-top: 0;
   }
 
   .aboutSection {
@@ -773,12 +786,14 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
+    height: 70vh;
+    padding-top: 4rem;
   }
 
   .eventCard {
     height: 17rem;
     width: 17rem;
-    margin: 4rem auto;
+    margin: 2rem auto;
     background-size: 19rem 19rem;
   }
 
@@ -798,7 +813,8 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 500vh;
+    height: 470vh;
+    padding-top: 2rem;
   }
 
   .memberCard {
@@ -806,7 +822,6 @@ footer h1 {
     width: 9.5rem;
     background-color: #00151F;
     border-radius: 1rem;
-    box-shadow: 0rem 0.25rem 0.5rem #008493;
     border: 1px solid #00AAB6;
     margin: 1rem 0.5rem;
     padding: 0.25rem;
@@ -839,14 +854,19 @@ footer h1 {
   }
 
   /* Gallery Section */
+  .gallerySection {
+    height: 70vh;
+    padding-top: 2rem;
+  }
+
   .galleryElement {
     height: 18rem;
     width: 23rem;
-    margin: 3.5rem auto;
+    margin: 5rem auto;
     background-size: 27rem 18rem;
     border-radius: 1rem;
+    border: 1px solid #00AAB6;
     opacity: 1;
-    box-shadow: 0.25rem 0.25rem 0.25rem #00AAB6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -854,11 +874,58 @@ footer h1 {
   }
 
   /* Footer section */
+  footer {
+    height: 95vh;
+    padding-top: 2rem;
+  }
+
   .upper-footer {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem 0;
+    padding: 1rem 0 0 0;
+  }
+
+  .footer-column {
+    margin: 1rem 0;
+  }
+
+  .footer-column img {
+    width: 13rem;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+  }
+
+  .footer-column h1 {
+    font-size: 16px;
+    width: 19rem;
+    color: #00AAB6;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  #acm-footer-logo {
+    width: 130px;
+  }
+
+  .socials h1 {
+    font-size: 20px;
+  }
+
+  .socials i {
+    font-size: 35px;
+  }
+
+  #copyright {
+    margin-top: 10px;
+  }
+
+  #copyright span {
+    color: #00AAB6;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 23rem;
+    text-shadow: #008493 0px 0px 10px;
   }
 }

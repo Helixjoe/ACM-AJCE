@@ -1,7 +1,7 @@
 export default function ExecomCard(props) {
     const imageLink = `url("./execom/` + props.image + `")`;
     return (
-        <div className="memberCard" >
+        <div className="memberCard" data-aos="fade-right" data-aos-delay="300">
             <div className="memberPhoto" style={{
                 backgroundImage: imageLink
             }}>

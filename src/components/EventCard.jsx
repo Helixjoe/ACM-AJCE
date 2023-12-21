@@ -23,9 +23,9 @@ function EventCard(props) {
     return (<div>
         <div className="eventCard"
             style={eventStyle}
-        ><p>{heading}</p><p>{speaker}</p><p>{content}</p><p>{date}</p></div >
+            data-aos="flip-right" data-aos-delay="300"><p>{heading}</p><p>{speaker}</p><p>{content}</p><p>{date}</p></div >
 
-        <div className="eventInfo" onClick={toggleInfo}><p>More Info</p></div></div >);
+        <div className="eventInfo" onClick={toggleInfo} data-aos="fade-up" data-aos-delay="200"><p>More Info</p></div></div >);
 }
 
 export default EventCard;

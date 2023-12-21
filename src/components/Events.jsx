@@ -37,7 +37,7 @@ function Events() {
         autoplay: true,
         autoplaySpeed: isMobile ? 1500 : 3000,
     }
-    return (<div id="events" className="eventsSection"><h1>Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
+    return (<div id="events" className="eventsSection"><h1 data-aos="fade-up" data-aos-delay="100">Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
 }
 
 export default Events;

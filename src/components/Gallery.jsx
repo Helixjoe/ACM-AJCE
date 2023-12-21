@@ -34,7 +34,7 @@ export default function Gallery() {
         fade: isMobile ? true : false
     };
     return (<div id="gallery" className="gallerySection" >
-        <h1>Gallery</h1>
+        <h1 data-aos="fade-up" data-aos-delay="100">Gallery</h1>
         <Slider {...settings}>{galleryList.map(createEntry)}</Slider>
     </div >)
 }
