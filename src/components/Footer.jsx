@@ -12,7 +12,7 @@ function Footer() {
                     <h1>E-mail: acmajce@amaljyothi.ac.in</h1>
                     <h1>Phone: +91 8547881984</h1>
                 </div>
-                <div className='footer-column' data-aos="fade-right" data-aos-delay="400">
+                <div className='footer-column' data-aos="fade-right" data-aos-delay="300">
                     <div className='socials'>
                         <h1>Our Socials</h1>
                         <i className="fa fa-facebook fa-3x" aria-hidden="true"></i>
@@ -20,7 +20,7 @@ function Footer() {
                         <i className="fa fa-linkedin fa-3x" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div className='footer-column footer-logo' data-aos="fade-right" data-aos-delay="600">
+                <div className='footer-column footer-logo' data-aos="fade-right" data-aos-delay="400">
                     <img src={ajceLogo}></img>
                     <div className='footer-logo-text'>
                         <h1>Kanjirapally, Kottayam District, Kerala</h1>

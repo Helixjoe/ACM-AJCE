@@ -647,7 +647,7 @@ footer h1 {
 /* ------- MOBILE RESPONSIVE ----------- */
 
 
-@media only screen and (min-width: 320px) and (max-width: 576px) {
+@media only screen and (min-width: 356px) and (max-width: 576px) {
 
   body {
     width: 100vw;
@@ -737,7 +737,7 @@ footer h1 {
   }
 
   .hero {
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
   }
 
@@ -770,12 +770,14 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 150vh;
-    padding-top: 0;
+    height: 170vh;
+    padding-top: 5vh;
+    position: relative;
   }
 
   .aboutSection {
     flex-flow: column;
+    height: 65rem;
   }
 
   .infoCard {
@@ -786,8 +788,8 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
-    height: 70vh;
-    padding-top: 4rem;
+    height: 80vh;
+    padding-top: 18vh;
   }
 
   .eventCard {
@@ -813,7 +815,7 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 470vh;
+    height: 250rem;
     padding-top: 2rem;
   }
 
@@ -856,12 +858,12 @@ footer h1 {
   /* Gallery Section */
   .gallerySection {
     height: 70vh;
-    padding-top: 2rem;
+    padding-top: 0rem;
   }
 
   .galleryElement {
-    height: 18rem;
-    width: 23rem;
+    height: 17rem;
+    width: 21rem;
     margin: 5rem auto;
     background-size: 27rem 18rem;
     border-radius: 1rem;
@@ -876,7 +878,7 @@ footer h1 {
   /* Footer section */
   footer {
     height: 95vh;
-    padding-top: 2rem;
+    padding-top: 5vh;
   }
 
   .upper-footer {
