@@ -581,12 +581,6 @@ footer h1 {
   margin-bottom: 1.5rem;
 }
 
-/* .footer-image img:nth-child(2) {
-  width: 6rem;
-  height: 6rem;
-  margin: 0rem auto;
-  margin-bottom: 1.5rem;
-} */
 
 .footer-column h1 {
   font-size: 17px;
@@ -634,7 +628,7 @@ footer h1 {
 .socials {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -648,10 +642,7 @@ footer h1 {
   color: #00AAB6;
   font-size: 40px;
   text-shadow: #008493 0px 0px 20px;
-}
-
-.fa-facebook:hover {
-  color: #0B83ED;
+  margin: 0 1rem;
 }
 
 .fa-linkedin:hover {

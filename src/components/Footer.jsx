@@ -15,7 +15,6 @@ function Footer() {
                 <div className='footer-column' data-aos="fade-right" data-aos-delay="300">
                     <div className='socials'>
                         <h1>Our Socials</h1>
-                        <i className="fa fa-facebook fa-3x" aria-hidden="true"></i>
                         <a href="https://www.instagram.com/acm_ajce/"><i className="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
                         <a href="https://www.linkedin.com/company/acm-ajce-student-chapter/mycompany"><i className="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
                     </div>
