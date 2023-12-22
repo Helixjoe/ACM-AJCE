@@ -30,8 +30,8 @@ export default function Gallery() {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
-        fade: isMobile ? true : false
+        autoplaySpeed: isMobile ? 3000 : 1000,
+        fade: isMobile ? true : false,
     };
     return (<div id="gallery" className="gallerySection" >
         <h1 data-aos="fade-up" data-aos-delay="100">Gallery</h1>

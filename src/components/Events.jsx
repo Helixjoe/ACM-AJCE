@@ -34,6 +34,7 @@ function Events() {
         slidesToShow: isMobile ? 1 : 3,
         speed: 300,
         dots: true,
+        arrows: true,
         autoplay: true,
         autoplaySpeed: isMobile ? 1500 : 3000,
     }

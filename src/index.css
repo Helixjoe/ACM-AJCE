@@ -292,8 +292,8 @@ video {
 }
 
 .slick-prev:before {
-  color: #00AAB6;
-  font-size: 2.5rem;
+  color: white;
+  font-size: 10rem;
 }
 
 .slick-dots li button:before {
@@ -558,18 +558,35 @@ footer h1 {
 
 
 .footer-column {
-  width: 18rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   color: white;
   text-align: center;
+  align-items: center;
 }
 
-.footer-column img {
-  width: 15rem;
+
+.footer-image {
+  width: 20rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-image img {
+  width: 6rem;
   margin: 0rem auto;
   margin-bottom: 1.5rem;
 }
+
+/* .footer-image img:nth-child(2) {
+  width: 6rem;
+  height: 6rem;
+  margin: 0rem auto;
+  margin-bottom: 1.5rem;
+} */
 
 .footer-column h1 {
   font-size: 17px;
@@ -581,6 +598,7 @@ footer h1 {
 
 #acm-footer-logo {
   width: 150px;
+  margin-bottom: 1rem;
 }
 
 .footer-column h2 {
@@ -596,6 +614,21 @@ footer h1 {
 .footer-logo-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 30rem;
+}
+
+.footer-logo-text h1 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.footer-logo-text h1:nth-child(2) {
+  font-size: 12px;
+}
+
+.acm h1 {
+  margin-top: 2px;
 }
 
 .socials {
@@ -894,7 +927,7 @@ footer h1 {
   }
 
   .footer-column img {
-    width: 13rem;
+    width: 6rem;
     margin: 0rem auto;
     margin-bottom: 1rem;
   }
