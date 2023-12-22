@@ -23,6 +23,31 @@ const execom = [
         designation: "Women's vice Chair",
         linkedURL: "https://www.linkedin.com/in/aadhi-lakshmi-m-r-497638289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
+    {
+        photo: "vinayak.png",
+        name: "Vinayak Prakash",
+        designation: "Secretary",
+        linkedURL: "https://www.linkedin.com/in/vinayak-prakash-432082255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+        photo: "aneeta.png",
+        name: "Aneetta Binoy",
+        designation: "Women's Secretary",
+        linkedURL: "https://www.linkedin.com/in/aneetta-binoy-7a3811263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        photo: "bava.png",
+        name: "Bava Kurian Varghese",
+        designation: "Treasurer",
+        linkedURL: "https://www.linkedin.com/in/bava-kurian-varghese-a14918249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+
+    {
+        photo: "joel.png",
+        name: "Joel John",
+        designation: "Webmaster",
+        linkedURL: "https://www.linkedin.com/in/joel-john-883132223/"
+    },
 
     {
         photo: "melvin.png",
@@ -43,18 +68,8 @@ const execom = [
         designation: "Women's Event Coordinator",
         linkedURL: "http://www.linkedin.com/in/alphonsa-francis-7292882a6"
     },
-    {
-        photo: "aneeta.png",
-        name: "Aneetta Binoy",
-        designation: "Women's Secretary",
-        linkedURL: "https://www.linkedin.com/in/aneetta-binoy-7a3811263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
-    {
-        photo: "vinayak.png",
-        name: "Vinayak Prakash",
-        designation: "Secretary",
-        linkedURL: "https://www.linkedin.com/in/vinayak-prakash-432082255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-    },
+
+
     {
         photo: "don.png",
         name: "Don C Delish",
@@ -85,18 +100,7 @@ const execom = [
         designation: "Content Team",
         linkedURL: "https://www.linkedin.com/in/thomas-zacharias-b9a2b7206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
-    {
-        photo: "joel.png",
-        name: "Joel John",
-        designation: "Webmaster",
-        linkedURL: "https://www.linkedin.com/in/joel-john-883132223/"
-    },
-    {
-        photo: "bava.png",
-        name: "Bava Kurian Varghese",
-        designation: "Treasurer",
-        linkedURL: "https://www.linkedin.com/in/bava-kurian-varghese-a14918249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
+
 
 
 
