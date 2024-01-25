@@ -20,7 +20,7 @@ among our members"
 practical skills through 
 workshops and competitions 
 "
-                    delay="600"
+                    delay="300"
                 />
                 <InfoCard
                     icon="fa-solid fa-people-group"
@@ -29,7 +29,7 @@ workshops and competitions
 learning from one another
  and growing as a collective force
 "
-                    delay="900"
+                    delay="300"
                 />
             </div>
         </section>

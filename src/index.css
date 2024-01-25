@@ -102,7 +102,7 @@ video {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding: 20px 0px 20px 60px;
+  padding: 1.25rem 0rem 1.25rem 3.75rem;
   z-index: 999;
 }
 
@@ -124,8 +124,8 @@ video {
 }
 
 .links {
-  margin-left: 400px;
-  padding-left: 100px;
+  margin-left: 25rem;
+  padding-left: 6.25rem;
 }
 
 .links a:first-child {
@@ -133,23 +133,12 @@ video {
 }
 
 .links a {
-  margin-left: 70px;
-  font-size: 20px;
+  margin-left: 4.375rem;
+  font-size: 1.25rem;
 }
 
 .links a:hover {
   text-shadow: #00AAB6 0px 0px 5px;
-}
-
-.links .womensLink {
-  margin-left: 80px;
-  padding: 10px;
-  border: 1px solid #00AAB6;
-}
-
-.links .womensLink:hover {
-  background-color: #00AAB6;
-  color: #00151F
 }
 
 /* --------------------------TITLES-------------------- */
@@ -286,15 +275,16 @@ video {
   width: 17rem;
 }
 
+.slick-prev::before {
+  color: #00AAB6;
+  font-size: 3rem;
+  z-index: 9999;
+}
+
 .slick-next:before {
   color: #00AAB6;
   font-size: 2.5rem;
   right: 0;
-}
-
-.slick-prev:before {
-  color: white;
-  font-size: 10rem;
 }
 
 .slick-dots li button:before {
@@ -313,7 +303,6 @@ video {
   color: #00AAB6;
   font-size: 0.6rem;
 }
-
 
 .eventCard {
   height: 18rem;
@@ -435,6 +424,7 @@ body.active-modal {
 /*------------ EXECOM -------------------- */
 .exSection {
   height: 270vh;
+  max-height: 500vh;
   width: 100vw;
   background-color: #00151F;
   text-align: center;
@@ -463,7 +453,7 @@ body.active-modal {
   background-color: #00151F;
   border-radius: 1rem;
   border: 1px solid #00AAB6;
-  margin: 1.5rem 2rem;
+  margin: 1.5rem 1.5rem;
 }
 
 .memberPhoto {
@@ -482,18 +472,18 @@ body.active-modal {
 
 .memName {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 1.063rem;
   margin-bottom: 0.25rem;
 }
 
 .memDes {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0.75rem;
   font-weight: 500;
 }
 
 .memberCard .fa-linkedin {
-  font-size: 30px;
+  font-size: 1.875rem;
   text-shadow: #008493 1px 1px 5px;
 }
 
@@ -507,7 +497,7 @@ body.active-modal {
   width: 100vw;
   background-color: #00151F;
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 50vh;
 }
 
 .gallerySection h1 {
@@ -521,6 +511,7 @@ body.active-modal {
   margin: 2rem auto;
   background-size: 29rem 25rem;
   border-radius: 1rem;
+  border: 1px solid #00AAB6;
   opacity: 1;
   display: flex;
   flex-direction: column;
@@ -532,8 +523,11 @@ body.active-modal {
   opacity: 1;
 }
 
-.gallerySection .slick-next:before,
-.slick-prev:before {
+.gallerySection .slick-next:before {
+  display: none;
+}
+
+.gallerySection .slick-prev:before {
   display: none;
 }
 

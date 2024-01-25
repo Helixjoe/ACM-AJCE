@@ -31,13 +31,11 @@ function Events() {
         centerMode: true,
         infinite: true,
         centerPadding: isMobile ? "20px" : "100px",
-        slidesToShow: isMobile ? 1 : 3,
-        speed: 300,
         dots: true,
         arrows: true,
-        autoplay: true,
-        autoplaySpeed: isMobile ? 1500 : 3000,
-    }
+        slidesToShow: isMobile ? 1 : 3,
+        speed: 500
+    };
     return (<div id="events" className="eventsSection"><h1 data-aos="fade-up" data-aos-delay="100">Events</h1><Slider {...settings}>{eventList.map(createEntry)}</Slider></div >);
 }
 
