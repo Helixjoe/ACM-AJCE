@@ -692,8 +692,8 @@ footer h1 {
   }
 
   .logoImage {
-    height: 5rem;
-
+    height: 4rem;
+    width: 8rem;
   }
 
   .mobile-toggle-button {
@@ -701,8 +701,8 @@ footer h1 {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     margin: 0rem 1rem 0 0rem;
     border: 3px solid #008493;
     border-radius: 3px;
@@ -710,7 +710,7 @@ footer h1 {
 
   .mobile-toggle-button i {
     color: #00AAB6;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .clicked {
@@ -720,7 +720,7 @@ footer h1 {
   .navBar {
     position: relative;
     font-size: 20px;
-    height: 300px;
+    height: 5rem;
     display: flex;
     flex-flow: column wrap;
     text-align: center;
@@ -741,7 +741,7 @@ footer h1 {
     width: 100vw;
     padding: 0px 0px 20px 0px;
     margin: 0;
-    margin-top: 7rem;
+    margin-top: 6rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

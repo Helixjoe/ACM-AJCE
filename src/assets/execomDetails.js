@@ -71,7 +71,7 @@ const execom = [
 
 
     {
-        photo: "don.png",
+        photo: "don.jpg",
         name: "Don C Delish",
         designation: "Design Lead",
         linkedURL: "https://www.linkedin.com/in/don-c-delish/"
@@ -135,6 +135,12 @@ const execom = [
         name: "Ashish Shabu",
         designation: "Marketing Team",
         linkedURL: "https://www.linkedin.com/in/ashish-shabu-17b143268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        photo: "aaron.png",
+        name: "Aaron Samuel Mathew",
+        designation: "Membership Developer",
+        linkedURL: "https://www.linkedin.com/in/aaron-samuel-mathew/"
     },
     {
         photo: "riyas.png",

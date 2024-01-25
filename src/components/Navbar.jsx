@@ -29,7 +29,7 @@ function Navbar() {
             <nav id="nav" className={scrollState ? "navBar scrollY" : "navBar"} >
                 <div className="logo" data-aos="fade-down" data-aos-delay="200">
                     <a href="#home"><div className="logoImage"></div></a>
-                    <div className={"mobile-toggle-button"} onClick={navToggle}>
+                    <div className={"mobile-toggle-button"} onClick={navToggle} >
                         <i className="fa-solid fa-bars"></i>
                     </div>
 
