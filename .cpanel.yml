@@ -1,8 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/yourusername/public_html
-    - /bin/cp -R $REPOSITORY/* $DEPLOYPATH
-    - /bin/find $DEPLOYPATH -type d -exec /bin/chmod 755 {} \;
-    - /bin/find $DEPLOYPATH -type f -exec /bin/chmod 644 {} \;
-    - /bin/chown -R yourusername:yourusername $DEPLOYPATH
+    - export DEPLOYPATH=/home/ajcehosting/repositories/ACM-AJCE  # Replace with your desired path
+    - rsync -aP --exclude '.git' ${REPOPATH}/ ${DEPLOYPATH}
