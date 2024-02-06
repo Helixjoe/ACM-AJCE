@@ -1,8 +1,8 @@
 ---
-deploy:
+deployment:
   tasks:
-    - export DEPLOYPATH=/home/ajcehosting/public_html
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/yourusername/public_html
+    - /bin/cp -R $REPOSITORY/* $DEPLOYPATH
     - /bin/find $DEPLOYPATH -type d -exec /bin/chmod 755 {} \;
     - /bin/find $DEPLOYPATH -type f -exec /bin/chmod 644 {} \;
-    - /bin/chown -R ajcehosting:ajcehosting $DEPLOYPATH
+    - /bin/chown -R yourusername:yourusername $DEPLOYPATH
