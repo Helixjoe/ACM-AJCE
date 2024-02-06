@@ -951,18 +951,13 @@ footer h1 {
 }
 
 /* -----------------LAPTOP S --------------- */
-@media only screen and (min-width: 768px) and (max-width:1024px) {
+@media only screen and (min-width: 1440px) and (max-width:1920px) {
   .links {
     padding-left: 0rem;
   }
 
   .navBar {
     justify-content: space-around;
-  }
-
-  .links a {
-    margin-left: 2rem;
-    font-size: 1rem;
   }
 
   .logoImage {
