@@ -12,11 +12,11 @@ function createEntry(event) {
 }
 
 function Events() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
+            setIsMobile(window.innerWidth <= 1024);
         };
 
         window.addEventListener('resize', handleResize);
@@ -30,7 +30,7 @@ function Events() {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: isMobile ? "20px" : "100px",
+        centerPadding: isMobile ? "0px" : "0px",
         dots: true,
         arrows: true,
         slidesToShow: isMobile ? 1 : 3,

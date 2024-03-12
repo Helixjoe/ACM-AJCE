@@ -951,7 +951,7 @@ footer h1 {
 }
 
 /* -----------------LAPTOP S --------------- */
-@media only screen and (min-width: 1440px) and (max-width:1920px) {
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
   .links {
     padding-left: 0rem;
   }
@@ -966,11 +966,25 @@ footer h1 {
     background-image: url('assets/images/LOGO23.png');
     background-size: cover;
   }
+
+  .memberCard {
+    margin: 1rem 0.5rem;
+  }
+
+  .gallerySection .slick-next:before {
+    display: block;
+  }
+
+  .gallerySection .slick-prev:before {
+    display: block;
+  }
+
+
 }
 
 /* -------------- 4K ---------------- */
 
-@media only screen and (min-width: 1921px) {
+@media only screen and (min-width: 1920px) {
   h1 {
     font-size: 5rem;
   }

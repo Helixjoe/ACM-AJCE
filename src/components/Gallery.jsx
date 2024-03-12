@@ -9,11 +9,11 @@ function createEntry(gallery) {
 }
 
 export default function Gallery() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1400);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
+            setIsMobile(window.innerWidth <= 1400);
         };
 
         window.addEventListener('resize', handleResize);
@@ -27,7 +27,7 @@ export default function Gallery() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: isMobile ? 1 : 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: isMobile ? 3000 : 1000,
