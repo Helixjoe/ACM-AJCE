@@ -665,7 +665,7 @@ footer h1 {
 /* ------- MOBILE RESPONSIVE ----------- */
 
 
-@media only screen and (min-width: 356px) and (max-width: 576px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
 
   body {
     width: 100vw;
@@ -687,6 +687,7 @@ footer h1 {
   .logoImage {
     height: 4rem;
     width: 8rem;
+    margin: 0;
   }
 
   .mobile-toggle-button {
@@ -715,7 +716,7 @@ footer h1 {
     font-size: 20px;
     height: 5rem;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row none;
     text-align: center;
     padding: 0px;
   }
@@ -734,7 +735,7 @@ footer h1 {
     width: 100vw;
     padding: 0px 0px 20px 0px;
     margin: 0;
-    margin-top: 6rem;
+    top: 5.5rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
