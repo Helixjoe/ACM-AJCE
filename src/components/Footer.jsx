@@ -31,7 +31,7 @@ function Footer() {
                 </div>
             </div>
             <div id='copyright'>
-                <span>Developed By - Joel John (ACM AJCE Webmaster) | Email: joeljohn5112@gmail.com</span>
+                <span>Developed By - Joel John (ACM AJCE Webmaster)</span>
                 <span>Copyright © 2023 All rights reserved | ACM AJCE</span>
             </div>
         </footer >
