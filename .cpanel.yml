@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ajcehosting/repositories/ACM-AJCE  # Replace with your desired path
-    - rsync -aP --exclude '.git' ${REPOPATH}/ ${DEPLOYPATH}
