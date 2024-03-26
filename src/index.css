@@ -1371,7 +1371,7 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 170vh;
+    height: 220vh;
     padding-top: 5vh;
     position: relative;
   }
@@ -1389,7 +1389,7 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding-top: 18vh;
   }
 
@@ -1412,7 +1412,7 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 550vh;
+    height: 730vh;
     padding-top: 2rem;
   }
 
@@ -1462,8 +1462,14 @@ footer h1 {
 
 
   /* Gallery Section */
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
+
   .gallerySection {
-    height: 70vh;
+    height: 100vh;
     padding-top: 0rem;
   }
 
@@ -1483,7 +1489,7 @@ footer h1 {
 
   /* Footer section */
   footer {
-    height: 95vh;
+    height: 120vh;
     padding-top: 5vh;
   }
 
@@ -1663,7 +1669,7 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 170vh;
+    height: 220vh;
     padding-top: 5vh;
     position: relative;
   }
@@ -1681,7 +1687,7 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding-top: 18vh;
   }
 
@@ -1726,7 +1732,7 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 500vh;
+    height: 520vh;
     padding-top: 2rem;
   }
 
@@ -1777,7 +1783,7 @@ footer h1 {
 
   /* Gallery Section */
   .gallerySection {
-    height: 70vh;
+    height: 100vh;
     padding-top: 0rem;
   }
 
@@ -1797,7 +1803,7 @@ footer h1 {
 
   /* Footer section */
   footer {
-    height: 95vh;
+    height: 120vh;
     padding-top: 5vh;
   }
 
