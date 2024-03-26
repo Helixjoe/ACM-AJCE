@@ -786,7 +786,7 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 170vh;
+    height: 220vh;
     padding-top: 5vh;
     position: relative;
   }
@@ -804,7 +804,7 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding-top: 18vh;
   }
 
@@ -831,8 +831,8 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 550vh;
-    max-height: 800vh;
+    height: 560vh;
+    height: 680vh;
     padding-top: 2rem;
   }
 
@@ -874,7 +874,7 @@ footer h1 {
 
   /* Gallery Section */
   .gallerySection {
-    height: 70vh;
+    height: 100vh;
     padding-top: 0rem;
   }
 
@@ -894,7 +894,7 @@ footer h1 {
 
   /* Footer section */
   footer {
-    height: 95vh;
+    height: 120vh;
     padding-top: 5vh;
   }
 
@@ -904,6 +904,10 @@ footer h1 {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0 0 0;
+  }
+
+  .footer-logo-text {
+    width: 100vw;
   }
 
   .footer-column {
@@ -1076,7 +1080,7 @@ footer h1 {
 
   /* About Section */
   .about {
-    height: 170vh;
+    height: 220vh;
     padding-top: 5vh;
     position: relative;
   }
@@ -1094,7 +1098,7 @@ footer h1 {
   /* Events Section */
   .eventsSection {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding-top: 18vh;
   }
 
@@ -1121,7 +1125,7 @@ footer h1 {
   /* Execom section */
 
   .exSection {
-    height: 500vh;
+    height: 660vh;
     padding-top: 2rem;
   }
 
@@ -1163,7 +1167,7 @@ footer h1 {
 
   /* Gallery Section */
   .gallerySection {
-    height: 70vh;
+    height: 100vh;
     padding-top: 0rem;
   }
 
@@ -1183,7 +1187,7 @@ footer h1 {
 
   /* Footer section */
   footer {
-    height: 95vh;
+    height: 120vh;
     padding-top: 5vh;
   }
 
@@ -1193,6 +1197,10 @@ footer h1 {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0 0 0;
+  }
+
+  .footer-logo-text {
+    width: 100vw;
   }
 
   .footer-column {
