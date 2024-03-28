@@ -12,7 +12,7 @@ function Hero() {
                 <p data-aos="fade-up" data-aos-delay="600">Engaging Events and Sessions</p>
                 <div>
                     <button data-aos="fade-up" data-aos-delay="500">
-                        <a href="#events">Register for the next event</a>
+                        <a href="https://bit.ly/humorpreneur">Register for the new event</a>
                     </button>
                 </div>
             </div>
