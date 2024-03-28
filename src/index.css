@@ -82,16 +82,6 @@ h1 {
 }
 
 
-video {
-  height: 200vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-  object-fit: cover;
-  opacity: 0.2;
-}
-
 /*---------------------- NAVBAR ------------------------- */
 
 .navBar {
@@ -1019,6 +1009,7 @@ footer h1 {
 
   .headroom-wrapper {
     height: 200px;
+    overflow-x: hidden;
   }
 
   .links {
@@ -1545,7 +1536,7 @@ footer h1 {
 }
 
 /* ----------------TABLET--------------------- */
-@media only screen and (min-width: 726px) and (max-width: 768px) {
+@media only screen and (min-width: 726px) and (max-width: 966px) {
 
   body {
     width: 100vw;
@@ -1858,36 +1849,160 @@ footer h1 {
   }
 }
 
-/* -----------------LAPTOP S --------------- */
-@media only screen and (min-width: 1024px) and (max-width:1440px) {
-  .links {
-    padding-left: 0rem;
-  }
-
-  .navBar {
-    justify-content: space-around;
-  }
+/* ---------------LAPTOP S --------------------- */
+@media only screen and (min-width: 966px) and (max-width: 1094px) {
 
   .logoImage {
-    height: 4rem;
-    width: 8rem;
     background-image: url('assets/images/LOGO23.png');
     background-size: cover;
+    margin-right: 5rem;
   }
 
-  .memberCard {
-    margin: 1rem 0.5rem;
+  .links {
+    padding-left: 3rem;
   }
 
-  .gallerySection .slick-next:before {
-    display: block;
+  .links a {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
   }
 
-  .gallerySection .slick-prev:before {
-    display: block;
+  .headroom-wrapper {
+    height: 200px;
+    overflow-x: hidden;
   }
 
+  .about {
+    height: 100vh;
+  }
 
+  .eventsSection {
+    height: 100vh;
+  }
+
+  .exSection {
+    height: 560vh;
+    padding-top: 2rem;
+  }
+
+  .gallerySection {
+    height: 100vh;
+    padding-top: 0rem;
+  }
+
+  footer {
+    height: 90vh;
+    padding-top: 5vh;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
+}
+
+/* ---------------LAPTOP M --------------------- */
+@media only screen and (min-width: 1094px) and (max-width: 1368px) {
+
+  .logoImage {
+    background-image: url('assets/images/LOGO23.png');
+    background-size: cover;
+    margin-right: 5rem;
+  }
+
+  .links {
+    padding-left: 3rem;
+  }
+
+  .links a {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .headroom-wrapper {
+    height: 200px;
+    overflow-x: hidden;
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .eventsSection {
+    height: 100vh;
+  }
+
+  .exSection {
+    height: 450vh;
+    padding-top: 2rem;
+  }
+
+  .gallerySection {
+    height: 100vh;
+    padding-top: 0rem;
+  }
+
+  footer {
+    height: 90vh;
+    padding-top: 5vh;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
+}
+
+/* ---------------LAPTOP L --------------------- */
+@media only screen and (min-width: 1368px) and (max-width: 1500px) {
+
+  .logoImage {
+    background-image: url('assets/images/LOGO23.png');
+    background-size: cover;
+    margin-right: 5rem;
+  }
+
+  .links {
+    padding-left: 3rem;
+  }
+
+  .links a {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .headroom-wrapper {
+    height: 200px;
+    overflow-x: hidden;
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .eventsSection {
+    height: 100vh;
+  }
+
+  .exSection {
+    height: 400vh;
+    padding-top: 2rem;
+  }
+
+  .gallerySection {
+    height: 100vh;
+    padding-top: 0rem;
+  }
+
+  footer {
+    height: 90vh;
+    padding-top: 5vh;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
 }
 
 /* -------------- 4K ---------------- */
