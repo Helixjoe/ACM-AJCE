@@ -1947,10 +1947,6 @@ footer h1 {
     padding-top: 5vh;
   }
 
-  .slick-next:before,
-  .slick-prev:before {
-    display: none;
-  }
 }
 
 /* ---------------LAPTOP L --------------------- */
@@ -1999,10 +1995,6 @@ footer h1 {
     padding-top: 5vh;
   }
 
-  .slick-next:before,
-  .slick-prev:before {
-    display: none;
-  }
 }
 
 /* -------------- 4K ---------------- */
